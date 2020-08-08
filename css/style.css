@@ -261,3 +261,8 @@ body {
     padding-bottom: 0;
   }
 }
+@media (orientation: landscape) and (max-width: 768px) {
+  .rocket {
+    display: none;
+  }
+}
